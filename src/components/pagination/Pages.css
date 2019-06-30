@@ -1,0 +1,26 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#footer li {
+    list-style-type: none;
+}
+
+#footer li a:hover {
+    background-color: #0F7BFD;
+    color: white;
+}
+
+@media (max-width: 430px) {
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .pagination {
+        margin-bottom: 0;
+    }
+}

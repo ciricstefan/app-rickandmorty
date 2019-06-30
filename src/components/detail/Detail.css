@@ -1,0 +1,60 @@
+.detail {
+    background-color: #86CB58;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    overflow: auto;
+    border-radius: 15px 50px 30px;
+    border: 2px solid black;
+    text-align: center;
+    z-index: 2;
+}
+
+.detail p {
+    display: inline-block;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.detail > div {
+    width: 100%;
+    background-color: rgb(115, 168, 80);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.detail > div:nth-child(odd) {
+    background-color: #86CB58;
+}
+
+.detail p:first-child {
+    color: white;
+}
+
+@media (max-width: 1280px) {
+    .detail {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .detail {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .detail p {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .detail {
+        height: 80%;
+    }
+}
