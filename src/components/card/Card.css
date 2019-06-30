@@ -1,0 +1,26 @@
+.root {
+    flex-grow: 1;
+    margin-top: 3em;
+    justify-content: space-around;
+}
+
+.paper {
+    text-align: center;
+    width: 80%;
+    background-color: #E6E6FA !important;
+    margin: auto auto 2em auto;
+    border: 2px solid black;
+}
+
+.paper div img{
+    max-width: 100%;
+}
+
+.paper button {
+    margin: 0.6em 0.6em;
+}
+
+.show {
+    color: white !important;
+    background-color: #1E90FF !important;
+}
